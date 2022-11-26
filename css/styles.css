@@ -213,36 +213,16 @@ padding-top: 94px;
     
 }
 /* --------------------TEST----------------------------- */
-
+.icon-advant {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+}
 
 /* ----------------TEST--------------------------- */
 
-.advantages-item::before {
-    display: block;
-    content: "";
-    height: 120px;
-    margin-bottom: 30px;
-    
-    background-color: #F5F4FA;
 
-}
-
-.icon-attention::before {
-    background-image: url("../images/antenna.svg");
-
-}
-
-.icon-punctuality::before {
-    background-image: url("../images/clock.svg");
-}
-
-.icon-planning::before {
-    background-image: url("../images/diagram.svg");
-}
-
-.icon-technology::before {
-    background-image: url("../images/astronaut.svg");
-}
 
 .advantages-list li:not(:last-child) {
     padding-right: 30px;
@@ -394,9 +374,11 @@ fill: #AFB1B8;
     padding: 16px 32px;
     border: solid 1px #AFB1B8;
     border-radius: 4px;
+
 }
 .clients-link:hover {
     color: var(--secondary-color);
+    border: solid 1px var(--secondary-color);
 }
 /* ---------------------footer--------------------------- */
 .footer {
@@ -418,8 +400,16 @@ fill: #AFB1B8;
     line-height: 1.19;
 }
 
+.footer-soc-section {
+    margin-left: 301px;
+}
+.footer .footer-soc-section {
+    margin-top: -100px;
+}
+
 .footer-address-list {
     list-style: none;
+    max-width: 231px;
 }
 .footer-physical-address {
 
@@ -449,9 +439,40 @@ fill: #AFB1B8;
 .footer-email {
     margin-bottom: 12px;
 }
+.footer-soc-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.footer-soc-list {
+    display: flex;
+}
+.footer-soc-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+  
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-soc-link:hover {
+background-color: var(--secondary-color);
+}
 
+.footer-soc-link svg {
+    fill: #fff;
+}
+.footer-soc-item {
 
-
+}
+.footer-soc-item:not(:last-child) {
+    margin-right: 10px;
+}
 
 /* -------------------------portfolio html-------------------- */
 .portfolio {
