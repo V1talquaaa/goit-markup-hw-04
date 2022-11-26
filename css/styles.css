@@ -557,3 +557,11 @@ background-color: var(--secondary-color);
     padding: 20px 24px;
     
 }
+.portfolio-item:hover {
+    
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.filter-item:hover,
+.folter-item:focus {
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
