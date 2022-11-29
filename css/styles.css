@@ -363,7 +363,8 @@ height: 44px;
 .icon-soc {
     fill: #AFB1B8;
 }
-.icon-link:hover {
+.icon-link:hover,
+.icon-link:focus { 
     background-color: var(--secondary-color);
 }
 .icon-link:hover .icon-soc {
